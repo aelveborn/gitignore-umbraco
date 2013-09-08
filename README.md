@@ -3,11 +3,15 @@
 .gitignore and .gitattributes for Umbraco websites.
 
 
-## Setup ##
+## Setup and options ##
 
 For security reasons in public projects, be sure to uncomment the following line in .gitignore:
 
 \# /web.config
+
+To ignore install folder, uncomment the following line. This is useful if you deploy live site from git or you don't want temporary install files in git.
+
+\# Install/
 
 
 ## Contribute ##

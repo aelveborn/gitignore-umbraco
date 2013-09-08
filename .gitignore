@@ -4,6 +4,9 @@
 # Uncomment next line for security reasons in public projects
 #/web.config
 
+# Uncomment next line to ignore install folder, useful if you deploy live sites from git
+#Install/
+
 */log.txt
 App_Browsers/*
 App_Data/TEMP/*
