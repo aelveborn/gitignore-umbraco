@@ -1,19 +1,21 @@
 ## Umbraco .gitignore
-## https://github.com/aelveborn/umbraco-gitignore.git
+## https://github.com/aelveborn/gitignore-umbraco.git
 
-# Uncomment next line for security reasons in public projects
-#/web.config
+# /web.config is excluded for security reasons, remove this
+# entry if you want to include web.config in your repository 
 
-# Uncomment next line to ignore install folder, useful if you deploy live sites from git
-#Install/
+/web.config
 
-*/log.txt
 App_Browsers/*
 App_Data/TEMP/*
 App_Data/Logs/*
+App_Data/preview/*
 App_Data/umbraco.config
-www/App_Data/umbraco.config
+
+Install/
 ExamineIndexes/*
+
+*/log.txt
 
 
 ## Ignore Visual Studio temporary files, build results, and

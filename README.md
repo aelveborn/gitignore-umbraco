@@ -8,14 +8,13 @@ Copy the file .gitignore to the root folder of your git repository.
 
 ## Options ##
 
-For security reasons in public projects, be sure to uncomment the following line in .gitignore:
+For security reasons in public projects, web.config is excluded by default. Do you want to include web.config in your repository, remove following line:
 
-\# /web.config
+/web.config
 
-To ignore the install folder, uncomment the following line. This is useful if you deploy live site from git or you don't want temporary install files in git.
+The install folder is excluded by default. To include the install folder in your repository, remove the following line:
 
-\# Install/
-
+Install/
 
 ## Contribute ##
 
