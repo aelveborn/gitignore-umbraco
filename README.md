@@ -1,15 +1,18 @@
-# .gitignore for Umbraco #
+# Gitignore for Umbraco #
 
-.gitignore and .gitattributes for Umbraco websites.
+.gitignore for Umbraco web sites. 
 
+## Setup ##
 
-## Setup and options ##
+Copy the file .gitignore to the root folder of your git repository.
+
+## Options ##
 
 For security reasons in public projects, be sure to uncomment the following line in .gitignore:
 
 \# /web.config
 
-To ignore install folder, uncomment the following line. This is useful if you deploy live site from git or you don't want temporary install files in git.
+To ignore the install folder, uncomment the following line. This is useful if you deploy live site from git or you don't want temporary install files in git.
 
 \# Install/
 
@@ -18,6 +21,6 @@ To ignore install folder, uncomment the following line. This is useful if you de
 
 This is an initial version for a .gitignore and feedback and changes are always welcome, so please contribute to this project.
 
-## Disclamer ##
+## Visual Studio ##
 
-The code used to ignore Visual Studio files is from [Visual Studio Tools for Git](http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c "Visual Studio Tools for Git")
+Githubs own .gitignore for Visual Studio is included.
