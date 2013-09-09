@@ -6,7 +6,6 @@
 
 /web.config
 
-App_Browsers/*
 App_Data/TEMP/*
 App_Data/Logs/*
 App_Data/preview/*
